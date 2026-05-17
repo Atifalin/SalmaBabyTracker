@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "baby-tracker",
-    "slug": "baby-tracker",
+    "name": "Salma's Baby Tracker",
+    "slug": "salma-baby-tracker",
     "version": "1.0.0",
-    "scheme": "baby-tracker",
+    "scheme": "salma-baby-tracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atifalin09.babytracker",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,6 +33,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "558023b7-7fca-4f0d-9dca-405f4c561ef5"
+      }
+    }
   }
 }

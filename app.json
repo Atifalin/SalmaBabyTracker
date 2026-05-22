@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Salma's Baby Tracker",
-    "slug": "salma-baby-tracker",
+    "name": "EzyTracker",
+    "slug": "baby-tracker",
     "version": "1.0.0",
-    "scheme": "salma-baby-tracker",
+    "scheme": "ezytracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,7 +13,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.atifalin09.babytracker",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -26,13 +26,15 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.atifalin09.babytracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-asset"
     ],
     "extra": {
       "router": {},
